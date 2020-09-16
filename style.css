@@ -1,22 +1,37 @@
-.container div{
 
-    border: 1px #ccc solid;
+
+.flexboxContainer div{
+
+
     padding: 10px;
 
 }
 
-.container{
+.flexboxContainer{
 
     display: flex;
     flex-direction: row;
+    justify-content: center;
 
+}
+
+h3{
+    border-bottom: 1px solid #ccc;
 }
 
 .box1{
 
     flex-basis: 250px;
+    background-color: #212D3D;
+}
+
+.box1text{
+
+    color: thistle;
 }
 .box2{
-
+    
+    background-color: white;
     flex-basis: 400px;
+    border: 1px #ccc solid;
 }
