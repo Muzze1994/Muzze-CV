@@ -7,51 +7,57 @@ img {
   }
 
 .flexboxContainer div{
-
-
     padding: 10px;
-
 }
 
 .flexboxContainer{
-
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
 
 h3{
     border-bottom: 1px solid #ccc;
 }
 
-.box1{
+.box1 h3{
 
-    flex-basis: 250px;
+    color: #FFF;
+}
+.box1{
+    flex-basis: 300px;
     background-color: #212D3D;
 }
 
 .box1profiletext{
-
     color: #FFF;
-    margin-left: 50px;
+    margin-left: 25%;
 }
 
-.box1text{
+#profileptext{
 
+    margin-left: 29%;
+    color: #FFF;
+}
+
+.box1text, .contactText{
     color: #FFF;
 }
 
 
 li {
 list-style-image: url('icons-1.0.0/icons/cursor-fill.svg');
-
 }
 
 
 .box2{
-    
     background-color: white;
     flex-basis: 400px;
     border: 1px #ccc solid;
+}
+
+.contactText{
+
+    font-size: small;
+
 }
