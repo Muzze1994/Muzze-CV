@@ -1,3 +1,4 @@
+
 img {
     border-radius: 50%;
     margin: auto;
@@ -6,58 +7,71 @@ img {
     height: 120px;
   }
 
-.flexboxContainer div{
+.resume div{
     padding: 10px;
 }
 
-.flexboxContainer{
+.resume{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    height: auto;
+    width: 800px;
+    margin: 50px auto;
 }
 
 h3{
     border-bottom: 1px solid #ccc;
 }
 
-.box1 h3{
-
+.resmue_left h3{
     color: #FFF;
 }
-.box1{
+
+.resmue_left{
     flex-basis: 300px;
     background-color: #212D3D;
 }
 
-.box1profiletext{
+#resume_left_titletext{
     color: #FFF;
     margin-left: 25%;
 }
 
-#profileptext{
-
+#resume_left_nametext{
     margin-left: 29%;
     color: #FFF;
 }
 
-.box1text, .contactText{
+.resume_left_text, .contactText{
     color: #FFF;
 }
 
-
-li {
-list-style-image: url('icons-1.0.0/icons/cursor-fill.svg');
+.dotfreelist{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-
-.box2{
+.resume_right{
     background-color: white;
     flex-basis: 400px;
     border: 1px #ccc solid;
 }
 
 .contactText{
-
     font-size: small;
+}
 
+.edu-title-text, .work-title-text {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.edu-para-text, .work-para-text{
+    font-size: 14px;
+}
+
+.date{
+      font-style: italic;
 }
