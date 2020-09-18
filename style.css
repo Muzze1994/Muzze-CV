@@ -15,9 +15,6 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: auto;
-    width: 800px;
-    margin: 50px auto;
 }
 
 h3{
