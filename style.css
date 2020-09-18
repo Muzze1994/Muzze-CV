@@ -7,14 +7,14 @@ img {
     height: 120px;
   }
 
-.resume div{
+.container div{
     padding: 10px;
 }
 
-.resume{
+.container{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    margin: auto;
 }
 
 h3{
@@ -28,6 +28,8 @@ h3{
 .resmue_left{
     flex-basis: 300px;
     background-color: #212D3D;
+    
+
 }
 
 #resume_left_titletext{
@@ -59,6 +61,7 @@ h3{
 .contactText{
     font-size: small;
 }
+
 
 .edu-title-text, .work-title-text {
     font-weight: 500;
