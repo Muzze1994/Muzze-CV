@@ -1,3 +1,101 @@
+*{
+    font-family: sans-serif;
+    list-style: none;
+    padding: 0;
+}
+.skills{
+    width: 250px;
+    margin: 5px auto;
+    color: white;
+}
+.skills li{
+    margin: 20px 0;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+    height: 2px;
+    float: left;
+    background: #1581e6;
+}
+.htmlcss{
+    width: 80%;
+    animation: htmlcss 2s;
+}
+.csharp{
+    width: 50%;
+    animation: csharp 2s;
+}
+.umbraco{
+    width: 60%;
+    animation: umbraco 2s;
+}
+.javascript{
+    width: 60%;
+    animation: javascript 2s;
+}
+.reactjs{
+    width: 40%;
+    animation: reactjs 2s;
+}
+.sql{
+    width: 30%;
+    animation: sql 2s;
+}
+@keyframes htmlcss{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes csharp{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes umbraco{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes reactjs{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes sql{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
 
 img {
     border-radius: 50%;
@@ -28,9 +126,7 @@ h3{
 .resmue_left{
     flex-basis: 300px;
     background-color: #212D3D;
-    
 }
-
 
 #resume_left_titletext{
     color: #FFF;
